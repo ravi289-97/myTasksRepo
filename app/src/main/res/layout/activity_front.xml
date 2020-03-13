@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk_img1"
+
+    tools:context=".Front">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="37dp"
+        android:text="Check your Image below"
+        android:textColor="@color/own"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cambtn"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/infobtn"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/black"
+        android:text="Add PICTURE"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/infobtn"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:background="#1b1d1d"
+        android:text="Get Details"
+        android:textColor="@color/transwhite" />
+
+    <ImageView
+        android:id="@+id/show_img"
+        android:layout_width="311dp"
+        android:layout_height="266dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp" />
+
+    <TextView
+        android:id="@+id/pred"
+        android:layout_width="303dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="104dp"
+        android:layout_marginStart="33dp"
+        android:text="TextView" />
+
+</RelativeLayout>
